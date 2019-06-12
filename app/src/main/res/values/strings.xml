@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">F@DServer</string>
+    <string name="navigation_drawer_open">Open Navigation Drawer</string>
+    <string name="navigation_drawer_close">Close Navigation drawer</string>
+    <string name="web_client_id">226270276245-0v6e108prtqecdm7krn4tmqf6j9u0ghp.apps.googleusercontent.com</string>
+
+    <string name="ForHomeTitle">Food@Door</string>
+    <string name="ForMenuTitle">The Menu</string>
+    <string name="ForFoodListTitle">Items</string>
+    <string name="ForOrdersTitle">Orders</string>
+    <string name="ForOrderDetailsTitle">Order Details</string>
+    <string name="title_activity_track_order">TrackOrder</string>
+</resources>
