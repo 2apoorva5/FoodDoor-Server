@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -8,7 +8,7 @@
     app:cardElevation="8dp"
     app:cardPreventCornerOverlap="true">
 
-    <android.support.constraint.ConstraintLayout
+    <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_margin="8dp"
@@ -53,7 +53,7 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
-        <android.support.design.widget.TextInputLayout
+        <com.google.android.material.textfield.TextInputLayout
             android:id="@+id/foodName"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -81,9 +81,9 @@
                 android:textSize="18sp"
                 android:textStyle="normal" />
 
-        </android.support.design.widget.TextInputLayout>
+        </com.google.android.material.textfield.TextInputLayout>
 
-        <android.support.design.widget.TextInputLayout
+        <com.google.android.material.textfield.TextInputLayout
             android:id="@+id/foodDiscount"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
@@ -111,9 +111,9 @@
                 android:textSize="18sp"
                 android:textStyle="normal" />
 
-        </android.support.design.widget.TextInputLayout>
+        </com.google.android.material.textfield.TextInputLayout>
 
-        <android.support.design.widget.TextInputLayout
+        <com.google.android.material.textfield.TextInputLayout
             android:id="@+id/foodID"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
@@ -141,9 +141,9 @@
                 android:textSize="18sp"
                 android:textStyle="normal" />
 
-        </android.support.design.widget.TextInputLayout>
+        </com.google.android.material.textfield.TextInputLayout>
 
-        <android.support.design.widget.TextInputLayout
+        <com.google.android.material.textfield.TextInputLayout
             android:id="@+id/foodPrice"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
@@ -171,9 +171,9 @@
                 android:textSize="18sp"
                 android:textStyle="normal" />
 
-        </android.support.design.widget.TextInputLayout>
+        </com.google.android.material.textfield.TextInputLayout>
 
-        <android.support.design.widget.TextInputLayout
+        <com.google.android.material.textfield.TextInputLayout
             android:id="@+id/foodPrePrice"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
@@ -201,9 +201,9 @@
                 android:textSize="18sp"
                 android:textStyle="normal" />
 
-        </android.support.design.widget.TextInputLayout>
+        </com.google.android.material.textfield.TextInputLayout>
 
-        <android.support.design.widget.TextInputLayout
+        <com.google.android.material.textfield.TextInputLayout
             android:id="@+id/foodDesc"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -231,7 +231,7 @@
                 android:textSize="18sp"
                 android:textStyle="normal" />
 
-        </android.support.design.widget.TextInputLayout>
+        </com.google.android.material.textfield.TextInputLayout>
 
         <Button
             android:id="@+id/selectImage"
@@ -307,6 +307,6 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/foodName" />
 
-    </android.support.constraint.ConstraintLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
 
-</android.support.v7.widget.CardView>
+</androidx.cardview.widget.CardView>
